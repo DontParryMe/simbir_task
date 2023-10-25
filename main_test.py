@@ -19,7 +19,7 @@ def driver(request):
     return driver
 
 
-def test_bank_operations(driver):
+def test_operations(driver):
     with allure.step("Open page and perform operations"):
         page = Page(driver)
 
